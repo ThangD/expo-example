@@ -13,14 +13,19 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thang175.expoexample",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.thang175.expoexample"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -30,6 +35,12 @@
         "projectId": "5e4ee788-6345-4a80-8360-3c86b7d93eed"
       }
     },
-    "owner": "thang175"
+    "owner": "thang175",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5e4ee788-6345-4a80-8360-3c86b7d93eed"
+    }
   }
 }
