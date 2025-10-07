@@ -24,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5e4ee788-6345-4a80-8360-3c86b7d93eed"
+      }
+    },
+    "owner": "thang175"
   }
 }
