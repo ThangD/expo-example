@@ -8,6 +8,7 @@ export default function App() {
       <Text style={styles.subtitle}>This is an updated version - v1.1</Text>
       <Text style={styles.description}>Testing OTA updates with preview channel</Text>
       <Text style={styles.timestamp}>Updated: {new Date().toLocaleString()}</Text>
+      <Text style={styles.timestamp}>Author: Thang Dinh</Text>
       <StatusBar style="auto" />
     </View>
   );
